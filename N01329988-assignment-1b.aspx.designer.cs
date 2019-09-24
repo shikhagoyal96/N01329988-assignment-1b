@@ -22,48 +22,75 @@ namespace N01329988_assignment_1b {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// humangender control.
+        /// skydiver_gender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList humangender;
+        protected global::System.Web.UI.WebControls.RadioButtonList skydiver_gender;
         
         /// <summary>
-        /// time control.
+        /// incident_time control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList time;
+        protected global::System.Web.UI.WebControls.RadioButtonList incident_time;
         
         /// <summary>
-        /// province control.
+        /// incident_province control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList province;
+        protected global::System.Web.UI.WebControls.DropDownList incident_province;
         
         /// <summary>
-        /// location control.
+        /// incident_location control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList location;
+        protected global::System.Web.UI.WebControls.CheckBoxList incident_location;
         
         /// <summary>
-        /// profession control.
+        /// number_of_victim control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList profession;
+        protected global::System.Web.UI.WebControls.TextBox number_of_victim;
+        
+        /// <summary>
+        /// victim_contact_number control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox victim_contact_number;
+        
+        /// <summary>
+        /// post_incident_result control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList post_incident_result;
+        
+        /// <summary>
+        /// confirmationarea control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl confirmationarea;
     }
 }
